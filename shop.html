@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pannier</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./shop.css" />
+    <script
+      src="https://kit.fontawesome.com/529b8a145f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    <!-- MAIN -->
+
+    <main>
+      <section class="cards">
+        <!-- card 1 -->
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://static.fendi.com/dam/is/image/fendi/8BN335AS31F1PII_01?wid=1000&hei=1000&hash=574216c36d709a940cabc3e8a2b3653a-18f373ea0e0"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Bag</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in .
+                </p>
+                <i class="fas fa-plus-circle"></i>
+                <span class="qute">0</span>
+                <i class="fas fa-minus-circle"></i>
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+                <span class="unitt-price">120</span>
+                <span>$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://cdn.lesitedelasneaker.com/wp-content/images/2021/01/adidas-forum-84-low-og-bright-blue-s23764-pic01.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shoes</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in .
+                </p>
+                <i class="fas fa-plus-circle"></i>
+                <span class="qute">0</span>
+                <i class="fas fa-minus-circle"></i>
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+                <span class="unitt-price">230</span>
+                <span>$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://www.lamode.tn/42819-large_default/eau-de-parfum-femme-dior-j-adore-parfum-d-eau.webp"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Parfum</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in .
+                </p>
+                <i class="fas fa-plus-circle"></i>
+                <span class="qute">0</span>
+                <i class="fas fa-minus-circle"></i>
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+                <span class="unitt-price">450</span>
+                <span>$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Total price -->
+      <div class="total-price-container">
+        <span>Total Price :</span>
+        <span id="total-price"> 0 </span>
+        <span>$</span>
+      </div>
+    </main>
+
+    <!-- JS script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./shop.js"></script>
+  </body>
+</html>
